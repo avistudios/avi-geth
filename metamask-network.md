@@ -116,15 +116,7 @@ In your `avi-geth/network/chain-metadata.json` (and optionally exposed at
 }
 ```
 
-This keeps the **canonical symbol** as `AVI` for all infra/SDKs, while
-your front-end and MetaMask UI can show **“AVI Coin”** as the display
-name until the ecosystem clearly associates `AVI` with your L1.
-
 ---
-
-## 4. How to explain the ticker collision (short note for docs)
-
-You can add this short note somewhere in your docs:
 
 > **Ticker notice:**
 > The ticker “AVI” is also used by other projects on other chains. Until
