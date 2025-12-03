@@ -26,7 +26,7 @@ In MetaMask:
 3. Fill in the fields as follows:
 
    - **Network Name:**  
-     `AVI Coin Mainnet`
+     `AVI Coin`
 
    - **New RPC URL:**  
      `https://rpc.avicoin.org`
@@ -45,7 +45,7 @@ In MetaMask:
 
 4. Click **Save**.
 
-You should now see **AVI Coin Mainnet** as a selectable network in
+You should now see **AVI Coin** as a selectable network in
 MetaMask. Balances will show in **AVI Coin** and gas fees are paid in
 AVI Coin.
 
@@ -62,7 +62,7 @@ await window.ethereum.request({
   params: [
     {
       chainId: '0x5a2d9', // 369369 in hex
-      chainName: 'AVI Coin Mainnet',
+      chainName: 'AVI Coin',
       nativeCurrency: {
         name: 'AVI Coin',
         symbol: 'AVI', // canonical symbol in metadata
@@ -91,7 +91,7 @@ In your `avi-geth/network/chain-metadata.json` (and optionally exposed at
 
 ```json
 {
-  "name": "AVI Coin Mainnet",
+  "name": "AVI Coin",
   "shortName": "avi",
   "chain": "AVI",
   "chainId": 369369,
@@ -128,7 +128,7 @@ You can add this short note somewhere in your docs:
 
 > **Ticker notice:**
 > The ticker “AVI” is also used by other projects on other chains. Until
-> major indexers and price oracles support AVI Coin Mainnet directly,
+> major indexers and price oracles support AVI Coin directly,
 > any “AVI” price you see in wallets or portfolio apps may refer to a
 > different asset. Always treat the on-chain balance on Chain ID 369369
-> (AVI Coin Mainnet) as the source of truth.
+> (AVI Coin) as the source of truth.
